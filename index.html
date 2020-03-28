@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap4.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Bootstrap4_DropDowns</title>
+</head>
+
+<body>
+    <!-- DropDowns -->
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown Button</button>
+                    <dropdown class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Home-Link</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">About-Link</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Contact-Link</a>
+                    </dropdown>
+                </div>
+            </div>
+            <div class="col">
+                <div class="dropdown dropleft">
+                    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Button</button>
+                    <dropdown class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Home</a>
+                        <a href="#" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Contact</a>
+                    </dropdown>
+                </div>
+            </div>
+            <div class="col">
+                <div class="dropdown dropright">
+                    <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Button</button>
+                    <dropdown class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Home</a>
+                        <a href="#" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Contact</a>
+                    </dropdown>
+                </div>
+            </div>
+            <div class="col py-5">
+                <div class="dropdown dropup py-5">
+                    <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">Button</button>
+                    <dropdown class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Home</a>
+                        <a href="#" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Contact</a>
+                    </dropdown>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example single danger button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Action Success
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </div>
+
+        <!-- Example split danger button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger">Action Danger</button>
+            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- DropDowns Ends -->
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap4.min.js"></script>
+</body>
+
+</html>
